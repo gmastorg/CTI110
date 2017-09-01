@@ -10,11 +10,14 @@ def main():
     age=int(input("Enter age in years: "))
     if age < 2:
         print ('Infant')
-    if 2<=age<13:
-        print('Child')
-    if 13<=age<20:
-        print('Teenager')
-    if age>=20:
-        print('Adult')
+    else:
+        if 2<=age<13:
+            print('Child')
+        else:
+            if 13<=age<20:
+                print('Teenager')
+            else:
+                if age>=20:
+                    print('Adult')
             
 main()

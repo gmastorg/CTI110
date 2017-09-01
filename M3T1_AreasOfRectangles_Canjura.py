@@ -14,10 +14,12 @@ areaB=float(lengthB*widthB)
 
 if areaA > areaB:
     print ('The first rectangle has a greater area.')
-if areaB > areaA:
-    print ('The second rectangle has a greater area.')
-if areaA == areaB:
-    print ('The rectangles have the same area.')
+else:
+    if areaB > areaA:
+        print ('The second rectangle has a greater area.')
+    else:
+        if areaA == areaB:
+            print ('The rectangles have the same area.')
 
 
 
